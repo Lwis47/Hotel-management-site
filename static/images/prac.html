@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Webpage_1</title>
+<style>
+      body{
+        padding-top: 10px;
+        padding-bottom: 200px;
+        padding-left: 5px;
+      }
+
+      li,
+      dt {
+        font-family: Cambria;
+        font-size: 17px;
+      }
+
+      table {
+        cursor: pointer;
+        width: 100%;
+        border: 1px solid black;
+        border-collapse: collapse;
+        /*background-color: lightyellow;*/
+      }
+
+      tr {
+        border: 1px solid black;
+      }
+      
+      th,
+      td {
+        border: 1px solid black;
+      }
+
+      th {
+        text-align: left;
+        padding: 2px 5px;
+        font-family: Geneva;
+        font-size: 22px;
+      }
+    </style>
+    <link rel="stylesheet" href="school/static/styles/style.css"
+  </head>
+  
+  
+  <body>
+
+    <div>
+      <img src="school/static/images/screen.png"
+        style="width: 350px;
+        cursor: pointer;
+      ">
+    </div>
+
+    <!--Setting an Unordered list using different types of styles ie disk, square, circle-->
+    <div>
+      <ul style="
+        list-style-type:circle;
+      ">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>
+    </div>
+
+  <!--Setting an Ordered list by numbering it using various types eg romans, numbers, alphabets-->
+    <div>
+      <ol type="1">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+    </div>
+
+  <!--Setting items in a list with their related description-->
+    <div>
+      <dl>
+        <dt>Coffee</dt>
+        <dd>-Black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>-White cold drink</dd>
+      </dl>
+    </div>
+
+    <!--Forming HTML Tables-->
+    <div style="
+      width: 500px;
+      margin-bottom: 10px;
+    ">
+      <table>
+        <tr>
+          <th>Person 1</th>
+          <th>Person 2</th>
+          <th>Person 3</th>
+        </tr>
+
+        <tr>
+          <td>Emil</td>
+          <td>Tobias</td>
+          <td>Linus</td>
+        </tr>
+
+        <tr>
+          <td>16</td>
+          <td>14</td>
+          <td>10</td>
+        </tr>
+      </table>      
+    </div>
+
+    <!--Forming HTML Tables_Exercise-->
+<div style="width: 300px;">
+<table id="myTable">
+        <tr>
+          <th>Reg No.</th>
+          <th>Name</th>
+          <th>Course</th>
+        </tr>
+        <tr>
+          <td>CT100/G/...../25</td>
+          <td>John Doe </td>
+          <td>Bsc.IT</td>
+        </tr>
+        <tr>
+          <td>CT100/G/...../25</td>
+          <td>John Doe </td>
+          <td>Bsc.IT</td>
+        </tr>
+        <tr>
+          <td>CT100/G/...../25</td>
+          <td>John Doe </td>
+          <td>Bsc.IT</td>
+        </tr>
+        <tr>
+          <td>CT100/G/...../25</td>
+          <td>John Doe </td>
+          <td>Bsc.IT</td>
+        </tr>
+        <tr>
+          <td>CT100/G/...../25</td>
+          <td>John Doe </td>
+          <td>Bsc.IT</td>
+        </tr>
+      </table>
+    </div>
+
+    <h3>
+      <a href="webpage2.html">Go to second webpage</a>
+    </h3>
+  </body>
+</html>
+[9/25, 3:46 PM] Mike ✨: WebPage_2
+[9/25, 3:46 PM] Mike ✨: <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page 2</title>
+  </head>
+
+  <body>
+    <form action="">
+      <h1>Second WebPage</h1>
+      <label for="fname">First Name: </label><br>
+      <input type="text" id="fname" name="fname"><br>
+
+      <label for="lname">Last Name: </label><br>
+      <input type="text" id="lname" name="lname"><br>
+
+      <label for="myemail">Email: </label><br>
+      <input type="email" id="myemail" name="myemail"><br>
+
+      <label for="message">Message: </label><br>
+
+      <textarea name="message" id="message" rows="10" cols="100" placeholder="Enter Your Message Here..."></textarea>
+
+      <input type="submit" value="submit">
+      <input type="reset" value="reset">
+    </form>
+
+    <h3>
+      <a href="first_web.html">Go to First Webpage</a>
+    </h3>
+  </body>
+</html>
